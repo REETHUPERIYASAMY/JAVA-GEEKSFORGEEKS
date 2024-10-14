@@ -8,3 +8,7 @@ CODE:
         System.out.println("Hello World");
     }
 }
+
+OUTPUT:
+
+Hello World 
