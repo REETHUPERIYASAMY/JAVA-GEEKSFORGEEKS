@@ -1,0 +1,15 @@
+YOUR TASK:  
+You dont need to read input or print anything. Complete the function toLower() which takes s as input parameter and returns the converted string.
+
+CODE:
+     class Solution {
+    static String toLower(String s) {
+        return s.toLowerCase();
+    }
+}
+
+RESULT:
+    For Input: 
+    ABCddE
+    Your Output: 
+    abcdde
