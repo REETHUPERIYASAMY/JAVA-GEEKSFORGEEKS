@@ -1,0 +1,20 @@
+YOUR TASK..
+         Your task is to complete the provided function dataTypes() following the above-given steps.
+
+CODE:
+     class Geeks{
+    static void dataTypes(int a, float b, double c, long l, byte d){
+        double p =c/b ;
+        double q = b/a;
+        double r = c/a;
+        double m = r+l;
+        int s = a/d;
+        System.out.println(p + " " + q + " " + r + " " + m + " " + s);
+    }
+}
+
+RESULT:
+       Input:
+          2 4 8 16 32
+       Output:
+          2.0 2.0 4.0 20.0 0
