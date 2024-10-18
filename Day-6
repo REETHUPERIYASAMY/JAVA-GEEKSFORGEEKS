@@ -1,0 +1,17 @@
+YOUR TASK:
+          Your task is to complete the provided function printInFormat().
+          Note: You don't need to give a new line character after using System.out.format().
+
+CODE:
+     class Geeks{
+    static void printInFormat(float a, float b){
+        float result = a/b;
+               System.out.format("%s %.3f", result, result);
+    }    
+}
+
+RESULT:
+      Input: 
+      a = 3.25, b = 2.5
+      Output: 
+      1.3 1.300
