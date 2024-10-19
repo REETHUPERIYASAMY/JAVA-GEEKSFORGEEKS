@@ -1,0 +1,14 @@
+YOUR TASK:
+        You dont need to read input or print anything. Complete the function revStr() which takes s as input parameter and returns the reversed string.
+
+CODE:
+     class Solution {
+    static String revStr(String s) {
+      StringBuilder reversedString = new StringBuilder(s);
+        return reversedString.reverse().toString(); 
+    }
+}
+
+RESULTS:
+      Input: s = "ReversE"
+      Output: "EsreveR"
