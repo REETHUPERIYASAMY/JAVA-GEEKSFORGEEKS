@@ -1,0 +1,22 @@
+YOUR TASK:
+          You don't need to read input or print anything. Your task is to complete the function isVowel() which takes a character c and returns 'YES' or 'NO'.
+
+ CODE:
+      class Solution{
+    String isVowel(char c){
+       char lowerC = Character.toLowerCase(c);
+        
+        // Check if the character is a vowel
+        if (lowerC == 'a' || lowerC == 'e' || lowerC == 'i' || lowerC == 'o' || lowerC == 'u') {
+            return "YES";
+        } else {
+            return "NO";
+        }
+    }
+}
+
+RESULT:
+      Input:
+      c = 'Z'
+      Output:
+      NO
