@@ -1,0 +1,24 @@
+YOUR TASK:
+         Complete the function relationalOperators() that compares two integers a and b. Print:
+           "a is greater than b" if a is greater than b
+           "a is less than b" if a is less than b
+           "a is equal to b" if a equals b
+         Each output should be followed by a newline character.
+
+CODE:
+     class Solution{
+    static void relationalOperators(int A,int B){
+        if(A>B){
+            System.out.println(A+" is greater than "+B);
+        }else if(A<B){
+            System.out.println(A+" is less than "+B);
+        }else{
+            System.out.println(A+" is equal to "+B);
+        }
+    }
+}
+
+RESULT:
+      Input: a = 90 b = 5
+      Output: 90 is greater than 5.
+
