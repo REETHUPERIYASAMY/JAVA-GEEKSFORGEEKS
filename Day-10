@@ -1,0 +1,29 @@
+YOUR TASK:
+        Your task is to complete each of the given functions 
+        javaIntType() : read an integer input, store it in appropriate data type and return it. 
+        javaStringType() : read a string input, store it in appropriate data type and return it.  
+        javaFloatType() : read a float input, store it in appropriate data type and return it. 
+        Each of the function have an object of Scanner in the parameter to be used to read the input.
+
+CODE:
+    class Solution {
+    int javaIntType(Scanner sc) {
+        return sc.nextInt();
+    }
+    String javaStringType(Scanner sc) {
+        return sc.next();
+    }
+    float javaFloatType(Scanner sc) {
+        return sc.nextFloat();
+    }
+};
+
+RESULT:
+     Input: 
+     18 
+     abc 
+     9.9876 
+     Output:
+     18 
+     abc 
+     9.9876 
