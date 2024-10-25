@@ -1,0 +1,38 @@
+YOUR TASK:
+         Your task is to complete the provided function IOFunction(). You need to take the input and print a, b, c, d, and s in a new line
+
+CODE:
+     class Geeks {
+    static void IOFunction() {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+          int a = sc.nextInt();
+        double b = sc.nextDouble();
+        long c = sc.nextLong();
+        int d = sc.nextInt();
+        sc.nextLine(); 
+        String s = sc.nextLine();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(s);
+        }
+    }
+}
+
+RESULT:
+      Input:
+      5
+      2.5
+      6546854
+      120
+      geek for geeks
+
+      Output:
+      5
+      2.5
+      6546854
+      120
+      geek for geeks
