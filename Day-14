@@ -1,0 +1,13 @@
+YOUR TASK:
+          You are given a string s. You need to reverse the string.
+
+CODE:
+    class Reverse {
+    public static String reverseString(String s) {
+         return new StringBuilder(s).reverse().toString();
+    }
+}
+
+RESULT:
+     Input: s = "Geeks"
+     Output: "skeeG"
