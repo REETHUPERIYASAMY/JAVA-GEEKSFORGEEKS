@@ -1,0 +1,21 @@
+YOUR TASK:
+      You don't need to read input or print anything. Your task is to complete the function multiplyStrings() which takes two strings s1 and s2 as input and returns their product as a string.
+
+CODE:
+    class Solution
+{
+    public String multiplyStrings(String s1,String s2)
+    {
+        BigInteger num1 = new BigInteger(s1);
+        BigInteger num2 = new BigInteger(s2);
+        BigInteger result = num1.multiply(num2);
+        return result.toString();
+    }
+}
+
+RESULT:
+    Input:
+    s1 = "11"
+    s2 = "23"
+    Output:
+    253
