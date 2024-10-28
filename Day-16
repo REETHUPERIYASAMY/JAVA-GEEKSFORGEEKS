@@ -1,0 +1,24 @@
+YOUR TASK:
+         You don't need to read or print anyhting.  Your task is to complete the function isPrime() which takes N as input parameter and returns 1 if N is prime otherwise returns 0.
+
+CODE:
+     
+class Solution
+{
+    public int isPrime(int N)
+    {
+        if (N < 2) {
+            return 0;
+        }
+        for (int i = 2; i * i <= N; i++) {
+            if (N % i == 0) {
+                return 0; 
+            }
+        }
+        return 1; 
+    }
+}
+
+RESULT:
+      Input: N = 10
+      Output: 0
