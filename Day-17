@@ -1,0 +1,17 @@
+YOUR TASK:
+         Given an array arr[] containing the prices of items, your task is to calculate the average of all prices, rounded to two decimal places.
+Note:  Return the average of all the items as a String.
+
+  CODE:
+       
+class Solution {
+    public String average(int arr[]) {
+       double sum=Arrays.stream(arr).sum();
+       double average=sum/arr.length;
+       return String.format("%.2f",average);
+    }
+}
+
+RESULT:
+       Input: arr[] = [1, 2, 3, 4, 5]
+       Output: 3.00 
