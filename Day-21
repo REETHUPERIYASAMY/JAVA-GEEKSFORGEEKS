@@ -1,0 +1,19 @@
+YOUR TASK:
+        Given an array arr, print all its elements space-separated.
+Note: You don't need to move to the next line after printing all elements of the array (space-separated)
+
+CODE:
+    class Solution {
+    void printArray(int arr[]) {
+         for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            if (i < arr.length - 1) {
+                System.out.print(" ");
+            }
+         }
+    }
+}
+
+RESULT:
+      Input: arr[] = [1, 2, 3, 4, 5]
+      Output: 1 2 3 4 5
