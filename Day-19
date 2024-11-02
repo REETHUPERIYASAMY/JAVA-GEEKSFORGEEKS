@@ -1,0 +1,17 @@
+YOUR TASK:
+         You don't need to read input or print anything. Your task is to complete the function to_upper() which takes the string str as an argument and returns the resultant string.
+
+CODE:
+    class Solution 
+{ 
+    String to_upper(String str) 
+    { 
+        return str.toUpperCase();
+    }
+} 
+
+RESULT:
+      Input:
+      str = "geeks"
+      Output:
+      GEEKS
