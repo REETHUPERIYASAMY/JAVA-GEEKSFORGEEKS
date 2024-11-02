@@ -1,0 +1,17 @@
+YOUR TASK:
+         You are given an integer array arr[]. The task is to find the sum of it.
+
+CODE:
+      
+class Solution {
+    int sum(int arr[]) {
+      int sum=0;
+   for(int num:arr){
+        sum+=num;
+}
+return sum;
+}
+
+RESULT:
+        Input: arr[] = [1, 2, 3, 4]
+        Output: 10
