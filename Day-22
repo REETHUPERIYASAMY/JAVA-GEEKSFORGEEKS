@@ -1,0 +1,19 @@
+YOUR TASK:
+        Given a string s as input. Delete the characters at odd indices of the string. Return the final string after deletion of characters at odd indices.
+
+CODE:
+class Solution {
+    static String delAlternate(String S) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < S.length(); i++) {
+            if (i % 2 == 0) {
+                result.append(S.charAt(i));
+            }
+        }
+        return result.toString();
+    }
+}
+
+RESULT:
+    Input: s = "Geeks"
+    Output: "Ges" 
