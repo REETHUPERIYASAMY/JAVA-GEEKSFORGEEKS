@@ -1,0 +1,13 @@
+YOUR TASK:
+           You don't need to read input or print anything. Your task is to complete the function findDay() which takes three integers Date, Month, Year as input parameters and returns the weekday in a string variable (weekday should be in uppercase).
+
+CODE:
+   You don't need to read input or print anything. Your task is to complete the function findDay() which takes three integers Date, Month, Year as input parameters and returns the weekday in a string variable (weekday should be in uppercase).
+
+RESULT:
+      Input:
+      Date = 17
+      Month = 03 
+      Year = 2017
+      Output:
+      FRIDAY
