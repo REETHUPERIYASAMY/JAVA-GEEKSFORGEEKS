@@ -1,0 +1,24 @@
+YOUR TASK:
+          You dont need to read input or print anything. Complete the function isSubSequence() which takes A and B as input parameters and returns a boolean value denoting if A is a subsequence of B or not. 
+
+CODE:
+     
+class Solution{
+    boolean isSubSequence(String A, String B){
+        int i=0,j=0;
+        while(i<A.length()&&j<B.length()){
+            if(A.charAt(i)==B.charAt(j)){
+                i++;
+            }
+            j++;
+        }
+        return i==A.length();
+        
+    }
+}
+
+RESULT:
+     Input:
+     A = AXY 
+     B = YADXCP
+     Output: 0 
