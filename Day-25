@@ -1,0 +1,19 @@
+YOUR TASK:
+        Implement class `B` that extends the abstract class `A` and provides the implementation for the abstract method `m1`.
+
+CODE:
+     class B extends A 
+{
+    void m1(int p,int q) {
+        prod=p*q;
+    }
+}
+
+RESULT:
+Input:
+2
+9 2
+8 4
+Output:
+18
+32
