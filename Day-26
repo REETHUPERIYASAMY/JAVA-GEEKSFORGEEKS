@@ -1,0 +1,23 @@
+YOUR TASK:
+       Complete the function isBinary() which takes an string str as input parameter and returns 1 if str is binary and returns 0 otherwise.
+
+CODE:
+   class GfG
+{
+	boolean isBinary(String str)
+	{
+	   for (int i=0;i<str.length();i++) {
+            if (str.charAt(i) != '0' && str.charAt(i) != '1') {
+                return false;
+            }
+	   }
+        return true;
+    }
+}
+
+RESULT:
+   Input:
+   str = 101
+   Output:
+   1
+  
