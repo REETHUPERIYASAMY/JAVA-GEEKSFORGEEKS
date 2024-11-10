@@ -1,0 +1,20 @@
+YOUR TASK:
+     You dont need to read input or print anything. Complete the function conCat() which accepts two strings S1 and S2 as input parameter and returns concatenated string.
+
+
+CODE:
+    class Sol
+{
+   String conCat(String s1 , String s2)
+   {
+       String str;
+       str=s1+s2;
+       return str;
+   }
+}
+
+RESULT:
+    Input:
+    S1 = "Practice"
+    S2 = "Hard"
+    Output: PracticeHard
