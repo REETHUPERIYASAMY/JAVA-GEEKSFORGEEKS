@@ -1,0 +1,19 @@
+YOUR TASK:
+           Given a string s. Calculate the total number of unique substrings of the given string.
+
+CODE:
+     class Solution {
+     public static int unique_substring(String s) {
+        Set<String> U=new HashSet<>();
+        for(int i=0;i<s.length();i++){
+            for(int j=i+1;j<=s.length();j++){
+                U.add(s.substring(i,j));
+            }
+        }
+    return U.size();
+}
+}
+
+RESULT:
+         Input: s = "abd"
+         Ouput: 6
